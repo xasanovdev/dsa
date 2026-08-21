@@ -11,7 +11,7 @@ function leftRightDifference(nums: number[]): number[] {
     leftSum += nums[i];
   }
 
-  for (let i = nums.length; i > 0; i--) {
+  for (let i = nums.length - 1; i > 0; i--) {
     rightArr[i] = rightSum;
     rightSum += nums[i];
   }
