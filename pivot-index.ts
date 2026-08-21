@@ -1,6 +1,6 @@
+// function pivotIndex(nums: number[]): number {}
 
-
-// two pointers won't work for this problem, this code is trash (2)
+// two pointers won't work for this problem, this code is trash
 function pivotIndex(nums: number[]): number {
   let pivotIndex = -1;
 
